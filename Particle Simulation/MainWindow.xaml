@@ -1,0 +1,16 @@
+﻿<Window x:Class="Particle_Simulation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Particle_Simulation"
+        mc:Ignorable="d"
+        Title="Particle Simulation Menu System" Height="325" Width="504" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Open Recent Simulation" VerticalAlignment="Top" Width="315" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="330,10,0,0" TextWrapping="Wrap" Text="Other Options" VerticalAlignment="Top" Width="156" TextAlignment="Center"/>
+        <Button x:Name="CreateSimButton" Content="Create New Simulation" HorizontalAlignment="Left" Margin="330,31,0,0" VerticalAlignment="Top" Width="150" Click="CreateSimButton_Click"/>
+        <Button x:Name="LoadPreSetButton" Content="Load Pre-set Simulation" HorizontalAlignment="Left" Margin="330,56,0,0" VerticalAlignment="Top" Width="150" Click="LoadPreSetButton_Click"/>
+        <ListBox x:Name="RecentSimListBox" HorizontalAlignment="Left" Height="245" Margin="10,31,0,0" VerticalAlignment="Top" Width="315" Loaded="RecentSimListBox_Loaded"/>
+    </Grid>
+</Window>

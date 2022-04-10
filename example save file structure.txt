@@ -1,0 +1,6 @@
+6.63e-34   (elapsed time)
+1          (radius)
+0.5        (expansion coefficient)
+0.25       (expansion exponent)
+3, {posx/posY/posZ}, {velX/velY/velZ}, {accX/accY/accZ}
+16, {posx/posY/posZ}, {velX/velY/velZ}, {accX/accY/accZ}
